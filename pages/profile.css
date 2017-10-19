@@ -1,0 +1,15 @@
+.pf{
+   display: inline-block;
+   border: 1px solid #1592E6;
+   border-radius: 50%;
+   width: 140px;
+   height: 140px;
+   margin-top: 5%;
+}
+.name{
+   /*border: 1px solid black;*/
+   display: inline-block;
+   padding: 4%;
+   font-size: 120%;
+   line-height: 36px;
+}

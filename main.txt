@@ -1,0 +1,14 @@
+ <center>
+         <link rel="stylesheet" href="index.css" type="text/css">
+         <!-- main title -->
+         <div class="body">
+            <div class="title">Online Market</div>
+            <div class="subtitle">Buy/Sell every online</div>
+
+            <!-- search  -->
+            <div class="search">
+               <form action="search.php" method="post">
+                  <input class="search" type="search" name="search" placeholder="what are you looking for?">
+                  <input type="submit" value="Search">
+               </form>
+            </div>

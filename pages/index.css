@@ -1,0 +1,118 @@
+input[type=search]{
+   margin: 4% auto;
+   width: 50%;
+   height: 50px;
+   text-align: center;
+    font-size: 120%;
+   border: 0;
+   border-radius: 8px;
+}
+input[type=search]::placeholder{
+   font-family: candara;
+   font-size: 120%;
+   text-align: center;
+}
+input[type=submit]{
+    height: 48px;
+    margin-left: 0.5%;
+    border-radius: 8px;
+    font-size: 120%;
+    font-family: candara;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.below{
+   margin: 4% 5%;
+   display: inline-block;
+}
+.result{
+   width: 70%;
+   margin: auto;
+   /*border: 1px solid grey;*/
+}
+.card{
+   /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
+   background-color: white;
+}
+.item{
+   width: 70%;
+   margin: 4% auto 4% auto;
+   box-sizing: border-box;
+   display: flex;
+/*   border: 1px solid grey;*/
+}
+.thumnail{
+   width: 180px;
+   height: 180px;
+   box-sizing: border-box;
+}
+.info{
+   width: 420px;
+   height: 180px;
+   overflow: hidden;
+   margin-left: 7%;
+   margin-right: 2%;
+}
+.date{
+   background-color: brown;
+   color: white;
+   width: 25px;
+   margin-right: 2%;
+   padding: 0% 4%;
+   cursor: default;
+}
+.day{
+   font-size: 150%;
+   font-weight: bold;
+   margin: auto;
+}
+.month{
+   font-size: 100%;
+   text-transform: uppercase;
+   margin: auto;
+}
+.pname{
+   font-size: 120%;
+   font-weight: bold;
+   cursor: default;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+}
+.descr{
+   overflow: hidden;
+   cursor: default;
+   text-overflow: ellipsis;
+   height: 104px;
+}
+.price{
+   font-weight: bold;
+   color: brown;
+   cursor: default;
+   font-size: 140%;
+}
+.location{
+   padding: 1%;
+   cursor: default;
+   font-weight: bold;
+   /*border-bottom: 2px solid black;*/
+}
+.hit{
+    color: green;
+    float: right;
+    margin-right: 20%;
+}
+.more a{
+   border-bottom: 1px solid brown;
+   text-align: center;
+   cursor: pointer;
+   width: 20%;
+   margin-left: 1%;
+   padding: 1%;
+   float: right;
+   color: brown;
+}
+.more a:hover{
+   background-color: brown;
+   color: white;
+}

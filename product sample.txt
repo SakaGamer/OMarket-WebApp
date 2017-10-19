@@ -1,0 +1,130 @@
+            <div class="item card">
+            <!-- thumnail of product -->
+            <div class="thumnail">
+               <img src="C:\Users\Saka\Pictures\bar.jpg" id="img">
+            </div>
+
+            <!-- details of product -->
+            <div class="info">
+               <div>
+                  <!-- title -->
+                  <div style="display: flex;">
+                     <div class="date">
+                        <div class="day">25</div>
+                        <div class="month">JUN</div>
+                     </div>
+                     <div>
+                        <div class="pname">Title</div>
+                        <div style="cursor: default;">location</div>
+                        <div style="cursor: default;" style="font-weight: bold; color: green;">$249</div>
+                     </div>
+                  </div>
+
+                  <!-- description -->
+                  <div class="descr"><p>
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+               </div>
+                  <!-- string substr ( string $string , int $start [, int $length ] ) -->
+               </div>
+               <div class="more">More Info</div>
+            </div>
+         </div>
+
+
+         <div class="item card">
+         <!-- thumnail of product -->
+         <div class="thumnail">
+            <img src="C:\MAMP\htdocs\ckcc\project\fileUploads\iphone5s.png" id="img">
+         </div>
+
+         <!-- details of product -->
+         <div class="info">
+            <div>
+               <!-- title -->
+               <div style="display: flex;">
+                  <div class="date">
+                     <div class="day">25</div>
+                     <div class="month">JUN</div>
+                  </div>
+                  <div>
+                     <div class="pname">Title</div>
+                     <div>location</div>
+                     <div style="font-weight: bold; color: green;">$249</div>
+                  </div>
+               </div>
+
+               <!-- description -->
+               <div class="descr"><p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+               <!-- string substr ( string $string , int $start [, int $length ] ) -->
+            </div>
+            <div class="more">More Info</div>
+         </div>
+      </div>
+
+
+      <div class="item card">
+      <!-- thumnail of product -->
+      <div class="thumnail">
+         <img src="C:\MAMP\htdocs\ckcc\project\fileUploads\iphone5s.png" id="img">
+      </div>
+
+      <!-- details of product -->
+      <div class="info">
+         <div>
+            <!-- title -->
+            <div style="display: flex;">
+               <div class="date">
+                  <div class="day">25</div>
+                  <div class="month">JUN</div>
+               </div>
+               <div>
+                  <div class="pname">Title</div>
+                  <div>location</div>
+                  <div style="font-weight: bold; color: green;">$249</div>
+               </div>
+            </div>
+
+            <!-- description -->
+            <div class="descr"><p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </div>
+            <!-- string substr ( string $string , int $start [, int $length ] ) -->
+         </div>
+         <div class="more">More Info</div>
+      </div>
+   </div>
+
+
+   <div class="item card">
+   <!-- thumnail of product -->
+   <div class="thumnail">
+      <img src="C:\MAMP\htdocs\ckcc\project\fileUploads\iphone5s.png" id="img">
+   </div>
+
+   <!-- details of product -->
+   <div class="info">
+      <div>
+         <!-- title -->
+         <div style="display: flex;">
+            <div class="date">
+               <div class="day">25</div>
+               <div class="month">JUN</div>
+            </div>
+            <div>
+               <div class="pname">Title</div>
+               <div>location</div>
+               <div style="font-weight: bold; color: green;">$249</div>
+            </div>
+         </div>
+
+         <!-- description -->
+         <div class="descr"><p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+         <!-- string substr ( string $string , int $start [, int $length ] ) -->
+      </div>
+      <div class="more">More Info</div>
+   </div>
+</div>

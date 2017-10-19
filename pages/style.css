@@ -1,0 +1,138 @@
+html,body{
+    height: 100%;
+}
+body{
+   padding: 0;
+   margin: 0;
+   font-family: candara;
+   font-size: 15px;
+   background-color: white;
+}
+a{
+   text-decoration: none;
+}
+.title{
+   font-family: broadway;
+   font-size: 500%;
+   color: #faffbd;
+   cursor: default;
+}
+.subtitle{
+   font-size: 150%;
+   cursor: default;
+   color: white;
+}
+.topbar{
+   padding: 1%;
+   background-color: brown;
+/*   border: thin solid white;*/
+   width: 100%;
+   position: fixed;
+   top: 0px;
+}
+.logo{
+   display: inline-block;
+   vertical-align: middle;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 200%;
+   color: #faffbd;
+   cursor: default;
+}
+.navlink{
+   display: inline-block;
+   margin-left: 10%;
+}
+.navlink ul li{
+   display: inline-block;
+}
+.link{
+   font-size: 16px;
+   margin: 25px;
+   color: white;
+   font-weight: bold;
+}
+.body{
+   width: 70%;
+   padding: 10% 0 0 0;
+   margin: auto;
+}
+.frame_card{
+   border: 2px solid #FFD760;
+   border-radius: 5px;
+   padding: 1%;
+   margin: 1%;
+   /*box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);*/
+   background-color: #faffbd;
+}
+.text{
+   font-family: candara;
+   font-size: 17px;
+   font-style: italic;
+   cursor: default;
+}
+.text_head{
+   font-family: segoe UI;
+   font-size: 30px;
+   /*padding-top: 2%;*/
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.text_title{
+   font-family: segoe UI;
+   font-size: 15px;
+   padding-top: 3%;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.text_left{
+   font-family: candara;
+   font-size: 15px;
+   font-style: italic;
+   text-align: left;
+   cursor: default;
+   font-weight: bold;
+   margin: 2% 0 0 0;
+}
+.btn a{
+   color: white;
+   border: 1px solid white;
+   border-radius: 5px;
+   margin: 5%;
+}
+.btn a:hover{
+   border: 1px solid #faffbd;
+   color: #faffbd;
+    font-weight: bold;
+}
+.upcoming{
+   border-bottom: 3px solid green;
+   width: 50%;
+   margin: 2% auto;
+   cursor: default;
+   font-size: 150%;
+    font-family: clobot;
+}
+.noproduct{
+   background-color: #D5D5D5;
+   border-radius: 5px;
+   color: white;
+   width: 60%;
+   padding: 4%;
+   margin: 2% auto;
+   font-size: 200%;
+}
+.bg {
+    background-image: url("../fileUploads/workspace3.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.badge{
+    background-color: #faffbd;
+    border-radius: 8px;
+    color: brown;
+    padding: 8px;
+    vertical-align: middle;
+}

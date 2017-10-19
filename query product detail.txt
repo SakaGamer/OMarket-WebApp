@@ -1,0 +1,47 @@
+<?php
+
+                  if (isset($_SESSION['pid']))
+                  {
+                     $conn = new mysqli("localhost", "root", "root", "online_market") or die(mysql_error());
+                     $pid = $_SESSION['pid'];
+                     // query product details
+                     $query = "select product.image, product.create_at, product.pname, product.price, product.description, location.name from product, location where product.location_id = location.id and product.pid = '$pid' ";
+                     $result = $conn->query($query) or die(mysql_error()."[".$query."]");
+                     while ($row = mysqli_fetch_assoc($result)) {
+                     // product
+                     echo "<div class='product'>";
+                     echo "<img src='" .$row['image'] ."' width='180' height='180'>";
+                     echo "</div>";
+                     // product info
+                     echo "<div>";
+                     echo "<div style='width: 80%;'>";
+                     // name
+                     echo "<p class='text' style='font-weight: bold;'>" .$row['pname'] ."</p>";
+                     // location and price
+                     echo "<div style='display: flex;'>";
+                     echo "<div  style='width: 50%;'>";
+                     echo "<div class='text_left'>Price:</div>";
+                     echo "<div class='border'>";
+                     echo "<p class='text' style='font-weight: bold;'>" .$row['price'] ."</p>";
+                     echo "</div></div>";
+                     echo "<div style='width: 50%;'>";
+                     echo "<div class='text_left'>Location:</div>";
+                     echo "<div class='border' style='margin-left: 1%;'>";
+                     echo "<p class='text' style='font-weight: bold;'>" .$row['name'] ."</p>";
+                     echo "</div>";
+                     echo "</div>";
+                     echo "</div>";
+                     // description
+                     echo "<div class='text_left'>Description:</div>";
+                     echo "<div class='border'>";
+                     echo "<p class='text'>" $row['description'] ."</p>";
+                     echo "</div>";
+                     // contact
+                     echo "<div class='text_left'>Contact:</div>";
+                     echo "<div class='border'>";
+                     echo "<p class='text'>" .$row['contact_id'] ."</p>";
+                     echo "</div></div></div>";
+                  }
+                  }
+
+                ?>

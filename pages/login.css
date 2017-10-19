@@ -1,0 +1,69 @@
+input[type=text],input[type=email],input[type=password]{
+   width: 100%;
+   height: 42px;
+   font-size: 15px;
+   font-family: candara;
+   text-align: center;
+   border: 1px solid #B2B2B2;
+   border-radius: 5px;
+}
+input::placeholder{
+   font-family: candara;
+   font-size: 15px;
+   text-align: center;
+}
+.text{
+   font-family: candara;
+   font-size: 15px;
+   color: black;
+   margin: 0;
+   padding: 0;
+}
+.text:hover{
+   color: brown;
+   font-weight: bold;
+}
+.text_head{
+   font-family: candara;
+   font-size: 30px;
+   color: brown;
+   text-transform: uppercase;
+   margin-top: 4%;
+}
+.text_left{
+   font-family: candara;
+   font-size: 15px;
+   font-style: italic;
+   font-weight: bold;
+   text-align: left;
+   margin: 2% 0 0 0;
+}
+.text_forgot{
+   font-family: candara;
+   font-size: 12px;
+   font-style: italic;
+   text-align: right;
+   color: black;
+   padding: 0;
+   margin: 0;
+   cursor: pointer;
+}
+.text_forgot:hover{
+   color: brown;
+   font-weight: bold;
+}
+.btn{
+   background-color: white;
+   color: black;
+   border: 1px solid black;
+   border-radius: 5px;
+   padding: 10px 60px;
+   margin: 4%;
+   font-family: candara;
+   font-size: 15px;
+}
+.btn:hover{
+   background-color: brown;
+   border: 1px solid brown;
+   color: #faffbd;
+}

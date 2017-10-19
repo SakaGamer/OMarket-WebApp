@@ -1,0 +1,20 @@
+.left{
+   float: left;
+   width: 40%;
+}
+.right{
+   float: right;
+   width: 50%;
+   margin-bottom: 5%;
+}
+.pf{
+   display: inline-block;
+   border-radius: 2px;
+   width: 160px;
+   height: 180px;
+   margin-top: 2%;
+}
+.border{
+   border: 1px solid black;
+   padding: 2% 5%;
+}
